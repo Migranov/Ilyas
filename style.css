@@ -1,0 +1,70 @@
+body{
+   font-family: roboto, sans-serif;
+}
+
+.site-header{
+	background: #2f0505;
+	padding: 20px 30px;
+	box-shadow: 0 2px 1px #756969;
+}
+
+#navigate{
+     
+}
+
+#navigate ul{
+     padding: 0;
+     margin: 0;
+}
+
+#navigate ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 20px;
+}
+
+#navigate ul li a{
+	background-color: #f4f4f4;
+	text-decoration: none;
+	color: #333;
+	font-size: 20px;
+	border-radius: 2px solid #333;
+	border-radius: 25px;
+	padding: 4px 14px 4px 14px;
+}
+
+#navigate ul li a:hover{
+	background-color: #1230c1;
+	color: #f4f4f4;
+}
+
+div.set-div{
+	width: 20%;
+	height: 30px;
+	position: relative;
+}
+
+.set-div table {
+	border-color: #666
+}
+
+.ser-div table tr{
+  
+  border-bottom: none;
+}
+
+td{
+	padding: 5px;
+}
+
+.paragraf{
+	padding: 3px;
+	text-align: left;
+}
+
+
+
+
+
+
+

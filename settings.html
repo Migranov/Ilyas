@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>TranNseft</title>
+<!--Подключаем шрифт ROBOTO-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!-- Подключаем нормализацию страницы под все браузеры-->
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+<!-- Подключаем общие стили -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Style for that page -->
+  <style type="text/css">
+  
+
+  	.set-left-form{
+  		text-align: left;
+  		padding: 3px;
+  	}
+
+  	#right{
+  		position: absolute;
+  		left: 580px;
+  		top: 90px;
+  		text-align: right;
+  	}
+
+
+  
+
+  </style>		
+	
+</head>
+<body>
+<!-- Шапка Страницы-->
+	<header class="site-header">
+<!-- Навигация -->
+		<nav id="navigate">
+			<ul>
+				<li><a href="file.html" title="Открыть файлы" id="file">Файл</a></li>
+				<li><a href="zad.html" title="Окрыть задачи"  id="zad">Задачи</a></li>
+				<li><a href="settings.html" title="Открыть настройки" id="settings">Настройки</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="set-table">
+		<table border="1" width="100%" bgcolor="#f5f5f5" cellspacing="0">
+			<tr>
+				<td height="100px" width="150px" valign="top" align="center" >
+					Настройки отображения<p class="paragraf">Видимые страницы</p>
+					<form action="#" method="post" name="drop_box_down" class="set-left-form" >
+						Точность отображения
+					  <select name="menu" size="1">
+					 <!--Можешь добавить дополнитьно числа!!!-->
+					    <option value="minus-three">-3</option>
+					    <option value="minus-two">-2</option>
+					    <option value="minus-one">-1</option>
+					    <option selected="selected" value="zero">0</option>
+					  	<option value="one">1</option>
+					  	<option value="two">2</option>
+					  	<option value="three">3</option>
+					  	<option value="four">4</option>
+					  	<option value="five">5</option>
+					  	<option value="six">6</option>
+					  	<option value="seven">7</option>
+					  	<option value="eight">8</option>
+					  	<option value="nine">9</option>
+					  	<option value="ten">10</option>
+					  	<option value="eleven">11</option>
+					  </select>
+					</form>
+				</td> 
+				<td height="100px" width="250px" valign="top" align="center">
+				    Параметры численного алгоритма
+				    <form action="#" method="post" name="drop_box_down" class="set-left-form">
+						Точность по потоку
+					  <select name="menu" size="1">
+					 <!--Можешь добавить дополнитьно числа!!!-->
+					    <option value="minus-three">-1</option>
+					    <option value="minus-two">-0.1</option>
+					    <option value="minus-one">-0.01</option>
+					    <option selected="selected" value="zero">0</option>
+					  	<option value="one">0.01</option>
+					  	<option value="two">0.1</option>
+					  	<option value="three">1</option>
+					  	<option value="four">2</option>
+					  	<option value="five">3</option>
+					  	<option value="six">4</option>
+					  	<option value="seven">5</option>
+					  	<option value="eight">6</option>
+					  	<option value="nine">7</option>
+					  	<option value="ten">8</option>
+					  	<option value="eleven">9</option>
+					  </select>
+					</form>
+					<form action="#" method="post" name="drop_box_down" class="set-left-form">
+						Точность по сере
+					  <select name="menu" size="1">
+					 <!--Можешь добавить дополнитьно числа!!!-->
+					    <option value="minus-three">-1</option>
+					    <option value="minus-two">-0.1</option>
+					    <option value="minus-one">-0.01</option>
+					    <option selected="selected" value="zero">0</option>
+					  	<option value="one">0.01</option>
+					  	<option value="two">0.1</option>
+					  	<option value="three">1</option>
+					  	<option value="four">2</option>
+					  	<option value="five">3</option>
+					  	<option value="six">4</option>
+					  	<option value="seven">5</option>
+					  	<option value="eight">6</option>
+					  	<option value="nine">7</option>
+					  	<option value="ten">8</option>
+					  	<option value="eleven">9</option>
+					  </select>
+					</form>				
+					<form action="#" method="post" name="drop_box_down" class="set-left-form">
+						Кол-во периодов
+					  <select name="menu" size="1">
+					 <!--Можешь добавить дополнитьно числа!!!-->
+					    <option value="minus-three">-3</option>
+					    <option value="minus-two">-2</option>
+					    <option value="minus-one">-1</option>
+					    <option selected="selected" value="zero">0</option>
+					  	<option value="one">1</option>
+					  	<option value="two">2</option>
+					  	<option value="three">3</option>
+					  	<option value="four">4</option>
+					  	<option value="five">5</option>
+					  	<option value="six">6</option>
+					  	<option value="seven">7</option>
+					  	<option value="eight">8</option>
+					  	<option value="nine">9</option>
+					  	<option value="ten">10</option>
+					  	<option value="eleven">11</option>
+					  </select>
+					</form>
+					<form action="#" method="post" name="drop_box_down" id="right">
+						Показать период
+					  <select name="menu" size="1">
+					 <!--Можешь добавить дополнитьно числа!!!-->
+					    <option value="minus-three">-3</option>
+					    <option value="minus-two">-2</option>
+					    <option value="minus-one">-1</option>
+					    <option selected="selected" value="zero">0</option>
+					  	<option value="one">1</option>
+					  	<option value="two">2</option>
+					  	<option value="three">3</option>
+					  	<option value="four">4</option>
+					  	<option value="five">5</option>
+					  	<option value="six">6</option>
+					  	<option value="seven">7</option>
+					  	<option value="eight">8</option>
+					  	<option value="nine">9</option>
+					  	<option value="ten">10</option>
+					  	<option value="eleven">11</option>
+					  </select>
+					</form>
+
+				</td>
+				<td height="100px" width="300px" valign="top" align="center" ></td>
+			</tr>
+		</table>
+	</div>
+</body>
+	
+</html>
